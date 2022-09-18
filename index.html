@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping cart</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  
+   <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+   <header>
+   <div class="Div01"></div>
+  
+   <nav>
+    <h2>Luxury Shop </h2>
+    <ul>
+        <li> <a href= index.html > Home</a></li>
+        <li> <a href="#"> About</a></li>
+        <li class="cart"> 
+            <a href="cart.html"> 
+                <ion-icon name="basket"></ion-icon> cart <span>0</span>
+            </a>
+            
+    </li>
+    </ul>
+    </nav>
+   </header> 
+   <main>
+    <main>  
+        <div class="content">
+        <div class="cart-header">
+            <h2 class="product">Produit</h2>
+            <h2 class="Quantity">Quantité</h2>
+            <h2 class="prices"> Prix</h2>
+          
+        </div>
+        <div class="article">
+       
+               <img src="bague1.png" alt="bague">
+               <p>Bague or rose </p>
+            
+            <div class="quantity">   
+               <button class="moins">-</button>
+               <p class="Qty">0</p> 
+               <button class="add">+</button>
+            </div>
+            <div class="price">
+               <p class="priceNumber"> 1500  </p>
+               <p> DT </p>
+            </div>
+        
+            <i class="material-icons">favorite</i>
+            <i style="font-size:24px" class="fa">&#xf00d;</i>
+        </div>
+        <hr>
+        <div class="article">
+            <img src="chanel1.png" alt="montre">
+            <p>Montre Chanel</p>
+            <div class="quantity"> 
+                <button class="moins">-</button>
+                <p class="Qty">0</p> 
+                <button class="add">+</button>
+            </div>
+            <div class="price">  
+            <p class="priceNumber"> 3500</p>
+            <p> DT </p>
+            </div>
+            <i class="material-icons">favorite</i>
+            <i style="font-size:24px" class="fa">&#xf00d;</i>
+        </div>
+        <hr>
+        <div class="article">
+            <img src="bague2.png" alt="bague">
+            <p>Bague 18k </p>
+            <div class="quantity">
+                
+            <button class="moins">-</button>
+            <p class="Qty">0</p> 
+            <button class="add">+</button>
+            </div>
+            <div class="price">
+                <p class="priceNumber"> 1000 </p>
+                <p> DT </p>
+            </div>    
+            <i class="material-icons">favorite</i>
+            <i style="font-size:24px" class="fa">&#xf00d;</i>
+        </div>
+        
+
+     <aside>
+            <div class="commander"> 
+                <h3 class="total-price"> Prix Total:    </h3>
+                <h4 id="tp"> 0 </h4>
+                <div class="dt">
+                    <h4>  DT </h4>  
+                </div>
+                
+             </div>
+             <a href="#" class="MakePrice" > Acheter </a>
+     </aside>       
+    </main>
+  
+   <script src="cart.js"></script>
+</body>
+</html>
